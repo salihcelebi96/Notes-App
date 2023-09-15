@@ -24,9 +24,9 @@ const Card: React.FC<CardProps> = ({ title, content, onDelete, onEdit }) => {
   };
 
   return (
-    <div className='h-48 relative'>
-      <div className="card border h-full flex flex-col overflow-hidden">
-        <div className='border h-1/3 flex justify-center items-center'>
+    <div className='h-60 relative'>
+      <div className="card border bg-yellow-200  h-full flex flex-col overflow-hidden">
+        <div className='border border-stone-700  h-1/3 flex justify-center items-center'>
           {isEditing ? (
             <input
               type="text"
