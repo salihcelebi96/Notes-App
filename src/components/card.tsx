@@ -24,9 +24,9 @@ const CardsList: React.FC = () => {
 
     const handleSaveEdit = () => {
         if (editingItemId !== null) {
-            // Düzenlenen verileri Redux aracılığıyla güncellemek için bir eylem gönderin
+            
             dispatch(editItem({ id: editingItemId, title: editedTitle, content: editedContent }));
-            // Düzenleme modunu kapatmak için state'i sıfırlayın
+            
             setEditingItemId(null);
         }
     };

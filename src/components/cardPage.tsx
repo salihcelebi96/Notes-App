@@ -17,10 +17,8 @@ const Card: React.FC<CardProps> = ({ title, content, onDelete, onEdit }) => {
   };
 
   const handleSave = () => {
-    // Düzenlenen başlığı ve içeriği kaydetmek için burada bir eylem gönderin
-    // Örneğin, parent bileşeninizde bir fonksiyon aracılığıyla
-    // veya Redux kullanarak verileri güncelleyebilirsiniz.
-    setIsEditing(false); // Düzenleme modunu kapatmak için
+    
+    setIsEditing(false); 
   };
 
   return (
